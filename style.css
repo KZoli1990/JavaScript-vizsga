@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(180deg, rgb(6, 16, 158) 23.8%, rgb(216, 172, 28) 92%);
+}
+.header{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+#title{
+    margin-top: 5px;
+    padding:5px 10px ;
+    width:34rem;
+    border-radius: 10px;
+}
+#btn{
+    padding:5px 10px;
+    width:10rem;
+    font-size: 1rem;
+    background-color: red;
+    color:white;
+    border-radius: 10px;
+    cursor:pointer;
+   
+    margin:5px auto;
+    
+}
+#poké-result{
+    width:544px;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#result{
+    width:544px;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+ul{
+    width:270px;
+    list-style: none;
+}
+ul li a:hover{
+    color:white;
+}
+
+ul li hr{
+    border:1px solid black
+}
+
+.image{
+    width:200px;
+    height:200px;
+    margin:0 auto;
+}
+.hr{
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+.single{
+    margin:0 auto;
+}
